@@ -1,14 +1,55 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #222;
+  color: #999;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
+h1 {
+  font-size: 2.3em;
+  line-height: 2.4;
+}
+
+
+h3 {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.story-text p {
+  padding-bottom: 20px;
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.author {
+  text-transform: uppercase;
+  line-height: 3;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#008899; } /* unvisited */
+a:visited { color:#008899; } /* visited */
+a:hover { color:#999999; } /* mouse over */
+a:active { color:#558899; } /* selected */
 
 .logo {
   margin: 20px;
@@ -44,6 +85,10 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+header {
+  padding-bottom: 50px;
 }
 
 .container {
